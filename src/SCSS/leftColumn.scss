@@ -1,0 +1,62 @@
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  height: 100%;
+  background-color: $color-primary-dark;
+
+  .title {
+    padding-top: 26px;
+    padding-left: 56px;
+    font-weight: bold;
+    font-size: 24px;
+    color: $color-white;
+  }
+
+  .links-block {
+    @extend .font-navigation;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+
+    .fake-menu-item {
+      display: flex;
+      align-items: center;
+      height: 45px;
+      padding-left: 30px;
+      color: $color-white45;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $color-white10;
+      }
+
+      .fmi-title {
+        margin-left: 20px;
+      }
+    }
+
+    .active {
+      background-color: $color-white20 !important;
+      color: $color-white;
+      cursor: auto;
+      border-left: 2px solid $color-primary-red;
+    }
+  }
+
+  .beauty {
+    margin-top: auto;
+    margin-bottom: -5px;
+  }
+}
+
+
+
+
+
+
+
+
+

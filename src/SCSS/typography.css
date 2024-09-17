@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* Заголовки */
+.font-font-heading1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700; /* bold */
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.font-font-heading2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500; /* medium */
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.font-font-heading3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400; /* regular */
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* Тело текста */
+.font-font-body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500; /* medium */
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* Метки */
+.font-font-label {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500; /* medium */
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* Навигация */
+.font-font-navigation1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500; /* medium */
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* Текст */
+.font-font-text1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500; /* medium */
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.font-font-text2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700; /* bold */
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.font-font-text3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500; /* medium */
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.font-font-text4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400; /* regular */
+  font-size: 15px;
+  line-height: 22px;
+}
+
+/* Вспомогательный текст */
+.font-font-helper {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400; /* regular */
+  font-size: 13px;
+  line-height: 22px;
+}
+
+/* Кнопки */
+.font-font-button1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700; /* bold */
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.font-font-button2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700; /* bold */
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=typography.css.map */
